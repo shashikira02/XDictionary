@@ -35,7 +35,7 @@ export default function XDictionary(){
     return(
         <div>
             <h1>Dictionary App</h1>
-            <input placeholder="Search for a word..." onChange={handleChange} value={input} />
+            <input type="text" placeholder="Search for a word..." onChange={handleChange} value={input} />
             <button onClick={handleSearch} >Search</button>
             <div>
                 <h3>Definition:</h3>
